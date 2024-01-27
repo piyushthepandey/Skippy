@@ -1,7 +1,7 @@
 # Skippy - Online Talent Portfolio Platform 🚀🌟
 
 ## Introduction 📖
-Skippy is an innovative online platform designed to streamline the talent discovery and recruitment process. Developed as a project under CSYE7230, guided by Professor Maged Elasaar, it serves as a dynamic bridge connecting talented individuals with potential employers, making the hiring process more efficient and effective.
+Skippy is an innovative online platform designed to streamline the talent discovery and recruitment process. Developing as a project under CSYE7230, guided by Professor Maged Elasaar, it serves as a dynamic bridge connecting talented individuals with potential employers, making the hiring process more efficient and effective.
 
 ## Course Information 🏫
 - **Course:** CSYE7230
@@ -18,11 +18,11 @@ Skippy is an innovative online platform designed to streamline the talent discov
 - Any modern web browser
 
 ## Authors 👨‍💻👩‍💻
-[Shrey Patel] - NUID [002246327]
-[Viraj Gupta] - NUID [002817593]
-[Mohit Bhagwanani] - NUID [002875638]
-[Swapnil Patil] - NUID [002743839]
-[Piyush Pandey] - NUID [002680284]
+- [Shrey Patel] - NUID [002246327]
+- [Viraj Gupta] - NUID [002817593]
+- [Mohit Bhagwanani] - NUID [002875638]
+- [Swapnil Patil] - NUID [002743839]
+- [Piyush Pandey] - NUID [002680284]
 
 
 ## Building With 🛠️
