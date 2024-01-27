@@ -26,7 +26,7 @@ Skippy is an innovative online platform designed to streamline the talent discov
 
 
 ## Building With 🛠️
-React - The web framework 
-Node.js - Backend server
-MongoDB - Database system
-Express.js - Backend framework
+- React - The web framework 
+- Node.js - Backend server
+- MongoDB - Database system
+- Express.js - Backend framework
