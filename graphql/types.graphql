@@ -1,0 +1,65 @@
+type Project {
+  id: ID!
+  title: String!
+  description: String!
+  createdBy: User!
+}
+
+type User {
+  id: ID!
+  name: String!
+  email: String!
+  avatarUrl: String
+  description: String
+  githubUrl: String
+  linkedinUrl: String
+}
+
+type PageInfo {
+  hasNextPage: Boolean!
+  hasPreviousPage: Boolean!
+  startCursor: String
+  endCursor: String
+}
+
+type ProjectEdge {
+  node: Project!
+}
+
+type ProjectConnection {
+  pageInfo: PageInfo!
+  edges: [ProjectEdge!]!
+}
+
+type Query {
+  getProjects(category: String, endcursor: String): ProjectConnection!
+  getProjectById(id: ID!): Project
+  getUser(email: String!): User
+  getProjectsOfUser(id: ID!, last: Int = 4): [Project!]!
+}
+
+input ProjectCreateInput {
+  title: String!
+  description: String!
+}
+
+input ProjectUpdateInput {
+  title: String
+  description: String
+}
+
+type Mutation {
+  createProject(input: ProjectCreateInput!): Project!
+  updateProject(id: ID!, input: ProjectUpdateInput!): Project
+  deleteProject(id: ID!): ID
+  createUser(input: UserCreateInput!): User!
+}
+
+input UserCreateInput {
+  name: String!
+  email: String!
+  avatarUrl: String
+  description: String
+  githubUrl: String
+  linkedinUrl: String
+}
