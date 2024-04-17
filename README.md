@@ -28,8 +28,9 @@ Skippy is designed as a comprehensive platform for creative professionals to sho
 |-- .env # Environment variables file
 |-- README.md # Project documentation
 
-bash
-Copy code
+### User Manual 
+
+https://github.com/piyushthepandey/Skippy/wiki/User-Manual
 
 ## Installation
 
@@ -40,19 +41,18 @@ Copy code
 
 ### Setup
 Clone the repository and navigate into the project directory:
-```bash
+
 git clone https://github.com/piyushthepandey/Skippy.git
 cd Skippy
-Install the required dependencies:
 
-bash
-Copy code
+### Install the required dependencies:
+
 npm install
 Set up environment variables:
-Create a .env file in the root directory and fill in the necessary API keys and credentials:
 
-makefile
-Copy code
+## Create a .env file in the root directory and fill in the necessary API keys and credentials:
+
+
 GOOGLE_CLIENT_ID=your-google-client-id
 GOOGLE_CLIENT_SECRET=your-google-client-secret
 NEXTAUTH_URL=your-nextauth-url
@@ -65,12 +65,10 @@ GRAFBASE_API_KEY=your-grafbase-api-key
 Running the Project
 To run the project locally, execute:
 
-bash
-Copy code
 npm run dev
 Open http://localhost:3000 in your browser to view the project.
 
-Deployment
+### Deployment
 To deploy Skippy, connect your GitHub repository to Vercel:
 
 Select the Next.js template.
@@ -85,12 +83,11 @@ Make your changes and commit them (git commit -am 'Add some feature').
 Push to the branch (git push origin feature-branch).
 Create a new Pull Request.
 
-
-##Course Information 
+### Course Information 
 Course: CSYE7230
 Instructor: Professor Maged Elasaar
 
-##Authors 
+### Authors 
 [Shrey Patel] - NUID [002246327]
 [Viraj Gupta] - NUID [002817593]
 [Mohit Bhagwanani] - NUID [002875638]
