@@ -19,14 +19,20 @@ Skippy is designed as a comprehensive platform for creative professionals to sho
 - **CI/CD**: Vercel for continuous integration and deployment
 
 ## Project Structure
-
 /Skippy
+
 |-- /components # UI components
+
 |-- /pages # Application pages
+
 |-- /public # Static files
+
 |-- /styles # Styling for components
+
 |-- /tests # Test files
+
 |-- .env # Environment variables file
+
 |-- README.md # Project documentation
 
 ### User Manual 
@@ -66,13 +72,21 @@ Set up environment variables:
 
 
 GOOGLE_CLIENT_ID=your-google-client-id
+
 GOOGLE_CLIENT_SECRET=your-google-client-secret
+
 NEXTAUTH_URL=your-nextauth-url
+
 NEXTAUTH_SECRET=your-nextauth-secret
+
 CLOUDINARY_NAME=your-cloudinary-name
+
 CLOUDINARY_KEY=your-cloudinary-key
+
 CLOUDINARY_SECRET=your-cloudinary-secret
+
 GRAFBASE_API_URL=your-grafbase-api-url
+
 GRAFBASE_API_KEY=your-grafbase-api-key
 
 Running the Project
@@ -82,7 +96,6 @@ npm run dev
 Open http://localhost:3000 in your browser to view the project.
 
 ### Deployment
-
 To deploy Skippy, connect your GitHub repository to Vercel:
 
 Select the Next.js template.
@@ -100,12 +113,17 @@ Create a new Pull Request.
 ### Course Information 
 
 Course: CSYE7230
+
 Instructor: Professor Maged Elasaar
 
 ### Authors 
 
 [Shrey Patel] - NUID [002246327]
+
 [Viraj Gupta] - NUID [002817593]
+
 [Mohit Bhagwanani] - NUID [002875638]
+
 [Swapnil Patil] - NUID [002743839]
+
 [Piyush Pandey] - NUID [002680284]
